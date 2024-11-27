@@ -1,0 +1,20 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+
+  .left {
+    flex: 3;
+
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+      display: flex;
+      gap: 10px;
+    }
+  }
+  .right {
+    flex: 2;
+  }
+}
