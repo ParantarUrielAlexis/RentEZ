@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import "./navbar.scss";
 
 function Navbar() {
@@ -12,7 +13,7 @@ function Navbar() {
         </a>
         <a href="/">Home</a>
         <a href="/">About</a>
-        <a href="/">Contact</a>
+        <Link to="/contact">Contact</Link>
         <a href="/">Agents</a>
       </div>
       <div className="right">
@@ -30,7 +31,7 @@ function Navbar() {
         <div className={open ? "menu active" : "menu"}>
           <a href="/">Home</a>
           <a href="/">About</a>
-          <a href="/">Contact</a>
+          <Link to="/contact">Contact</Link>
           <a href="/">Agents</a>
           <a href="/">Sign-in</a>
           <a href="/">Sign-up</a>
