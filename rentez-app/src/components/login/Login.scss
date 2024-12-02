@@ -1,0 +1,107 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+    margin-left: 200px;
+  
+    .illustration-section {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+        .illustration {
+            width: 200px;
+            height: 300px;
+            background: linear-gradient(to bottom right, #ff4d4d, #ff9999);
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+        
+        .brand-name {
+            font-size: 50px;
+            font-weight: bold;
+            color: #ffcc00;
+            right: 50px;
+            text-shadow: 
+                -1px -1px 0 black,  /* Top-left shadow */
+                1px -1px 0 black,  /* Top-right shadow */
+                -1px  1px 0 black,  /* Bottom-left shadow */
+                1px  1px 0 black;  /* Bottom-right shadow */
+          }
+    }
+  
+    .form-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 100px;
+      padding: 40px;
+  
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+      }
+  
+      form {
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+  
+        input {
+          width: 100%;
+          padding: 10px 15px;
+          font-size: 1rem;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          outline: none;
+  
+          &:focus {
+            border-color: #ffcc00;
+            box-shadow: 0 0 5px #ffcc00;
+          }
+        }
+  
+        .login-btn {
+          width: 100%;
+          padding: 12px;
+          font-size: 1rem;
+          font-weight: bold;
+          background-color: #ffcc00;
+          color: #000000;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+  
+          &:hover {
+            background-color: #e6b800;
+          }
+        }
+      }
+  
+      p {
+        margin-top: 15px;
+        font-size: 0.9rem;
+        color: #555;
+  
+        a {
+          color: #007bff;
+          font-weight: bold;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
