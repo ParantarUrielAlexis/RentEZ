@@ -1,7 +1,7 @@
-import React from 'react';
-import './Signup.scss'; 
-import rentezLogo from '../../assets/rentez_logo.png'; 
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Signup.scss";
+import rentezLogo from "../../assets/rentez_logo.png";
+import { Link } from "react-router-dom";
 
 function Signup() {
   return (
@@ -24,11 +24,12 @@ function Signup() {
       </div>
 
       {/* Right Side: Illustration */}
-      
+
       <div className="illustration-section">
         <img src={rentezLogo} alt="RentEZ Logo" className="logo-image" />
-        <span className="brand-name">RENT <br></br> EZ</span>
-        
+        <span className="brand-name">
+          RENT <br></br> EZ
+        </span>
       </div>
     </div>
   );
