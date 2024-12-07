@@ -15,7 +15,15 @@ function SinglePage() {
                   <img src="/pin.png" alt="" />
                   <span>{singlePostData.address}</span>
                 </div>
-                <div className="price">{singlePostData.price}</div>
+                <div className="address">
+                  <img src="/bed.png" alt="" />
+                  <span>{singlePostData.bedrooms} bedrooms</span>
+                </div>
+                <div className="address">
+                  <img src="/bath.png" alt="" />
+                  <span>{singlePostData.bathrooms} bathrooms</span>
+                </div>
+                <div className="price">${singlePostData.price}</div>
               </div>
               <div className="user">
                 <img src={userData.img} alt="" />
