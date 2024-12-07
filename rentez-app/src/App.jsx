@@ -1,6 +1,10 @@
 import "./layout.scss";
 import Navbar from "./components/navbar/Navbar";
 import SinglePage from "./routes/singlePage/singlePage";
+import ProfilePage from "./routes/profilePage/profilePage";
+import { CreatePost } from "./routes/create_post/create_post";
+import { EditContactCard } from "./routes/contact_card/contact_card";
+import { UpdateProfile } from "./routes/update_profile/update_profile";
 import { useEffect } from "react";
 import axios from "axios";
 
@@ -20,6 +24,10 @@ function App() {
     <div className="layout">
       <Navbar />
       <SinglePage />
+      <ProfilePage />
+      <CreatePost />
+      <EditContactCard />
+      <UpdateProfile />
     </div>
   );
 }
