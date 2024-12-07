@@ -11,16 +11,16 @@ function Navbar() {
           <img src="/logo.png" alt="" />
           <span>RentEZ</span>
         </a>
-        <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/agents">Agents</Link>
       </div>
       <div className="right">
-        <a href="/">Sign-In</a>
-        <a href="/" className="register">
+        <Link to="/sign-in">Sign-In</Link>
+        <Link to="/sign-up" className="register">
           Sign-Up
-        </a>
+        </Link>
         <div className="menuIcon">
           <img
             src="/menu.png"
@@ -29,12 +29,12 @@ function Navbar() {
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
-          <a href="/">Agents</a>
-          <a href="/">Sign-in</a>
-          <a href="/">Sign-up</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/agents">Agents</Link>
+          <Link to="/sign-in">Sign-in</Link>
+          <Link to="/sign-up">Sign-up</Link>
         </div>
       </div>
     </nav>
