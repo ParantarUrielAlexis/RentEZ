@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Signup from './components/signup/Signup'; // Import the Signup component
 import Login from './components/login/Login';
+import SearchResult from './components/search_result/SearchResult';
 import './layout.scss';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<h1>Home Page</h1>} />
           <Route path="/signup" element={<Signup />} /> {/* Define the route for Signup */}
           <Route path="/login" element={<Login />} />
+          <Route path="/search_result" element={<SearchResult />} />
           {/* You can add other routes here */}
         </Routes>
       </div>

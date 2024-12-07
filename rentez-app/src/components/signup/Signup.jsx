@@ -1,6 +1,7 @@
 import React from 'react';
 import './Signup.scss'; 
 import rentezLogo from '../../assets/rentez_logo.png'; 
+import { Link } from 'react-router-dom';
 
 function Signup() {
   return (
@@ -18,7 +19,7 @@ function Signup() {
           </button>
         </form>
         <p>
-          Already Have an account? <a href="/login">Login</a>
+          Already Have an account? <Link to="/login">Login</Link>
         </p>
       </div>
 
