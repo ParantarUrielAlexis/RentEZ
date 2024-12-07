@@ -6,7 +6,7 @@ import image from "./image.png";
 import "./style.css";
 import tablerHomeFilled from "./tabler-home-filled.svg";
 
-export const CratePost = () => {
+export const CreatePost = () => {
   return (
     <div className="crate-post">
       <div className="div">
