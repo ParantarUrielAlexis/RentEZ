@@ -1,0 +1,92 @@
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    height: 100vh;
+    padding: 20px;
+  
+    .form-section {
+      flex: 1;
+      max-width: 400px;
+      text-align: center;
+      margin-left: 50px;
+  
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+  
+      form {
+        display: flex;
+        flex-direction: column;
+  
+        input {
+          margin-bottom: 15px;
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+        }
+  
+        .register-btn {
+          background-color: #ffcc00;
+          color: black;
+          font-size: 16px;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: 0.3s;
+  
+          &:hover {
+            background-color: #f5b800;
+          }
+        }
+      }
+  
+      p {
+        margin-top: 15px;
+        font-size: 14px;
+        text-align: center;
+  
+        a {
+          color: #007bff;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    .illustration-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  
+      .illustration {
+        width: 200px;
+        height: 300px;
+        background: linear-gradient(to bottom right, #ff4d4d, #ff9999);
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+  
+      .brand-name {
+        font-size: 50px;
+        font-weight: bold;
+        color: #ffcc00;
+        right: 50px;
+        text-shadow: 
+            -1px -1px 0 black,  /* Top-left shadow */
+            1px -1px 0 black,  /* Top-right shadow */
+            -1px  1px 0 black,  /* Bottom-left shadow */
+            1px  1px 0 black;  /* Bottom-right shadow */
+      }
+    }
+  }
+  
