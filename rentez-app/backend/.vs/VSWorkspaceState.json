@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend"
+    "\\backend",
+    "\\backend\\Repository",
+    "\\backend\\Services"
   ],
   "SelectedNode": "\\backend.sln",
   "PreviewInSolutionExplorer": false

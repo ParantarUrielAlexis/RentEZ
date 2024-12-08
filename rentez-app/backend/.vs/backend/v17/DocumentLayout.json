@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\rentezdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\rentezdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\services\\dummy4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\services\\dummy4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\repository\\dummy3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\repository\\dummy3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\dto\\dummy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\dto\\dummy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\models\\dummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\models\\dummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +34,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dummy4.cs",
+              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Services\\dummy4.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\dummy4.cs",
+              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Services\\dummy4.cs",
+              "RelativeToolTip": "backend\\Services\\dummy4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:30:29.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dummy3.cs",
+              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Repository\\dummy3.cs",
+              "RelativeDocumentMoniker": "backend\\Repository\\dummy3.cs",
+              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Repository\\dummy3.cs",
+              "RelativeToolTip": "backend\\Repository\\dummy3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:30:25.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dummy2.cs",
+              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\DTO\\dummy2.cs",
+              "RelativeDocumentMoniker": "backend\\DTO\\dummy2.cs",
+              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\DTO\\dummy2.cs",
+              "RelativeToolTip": "backend\\DTO\\dummy2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:30:14.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dummy.cs",
+              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Models\\dummy.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\dummy.cs",
+              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Models\\dummy.cs",
+              "RelativeToolTip": "backend\\Models\\dummy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:30:05.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RentEZDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\RentEZDbContext.cs",
+              "RelativeDocumentMoniker": "backend\\RentEZDbContext.cs",
+              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\RentEZDbContext.cs",
+              "RelativeToolTip": "backend\\RentEZDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:07:16.439Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +104,7 @@
               "RelativeDocumentMoniker": "backend\\Program.cs",
               "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Program.cs",
               "RelativeToolTip": "backend\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAABVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:51:41.914Z",
               "EditorCaption": ""
