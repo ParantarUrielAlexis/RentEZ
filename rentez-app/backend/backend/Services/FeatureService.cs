@@ -29,16 +29,18 @@ namespace backend.Services {
             var existingFeature = await _context.Features.FirstOrDefaultAsync(f => f.FeatureID == id);
             if (existingFeature == null) return false;
 
-            existingFeature.Bedroom = feature.Bedroom;
+            // Correct property names
+            existingFeature.Bedrooms = feature.Bedrooms;  // Use "Bedrooms" instead of "Bedroom"
             existingFeature.Capacity = feature.Capacity;
             existingFeature.Type = feature.Type;
-            existingFeature.Bathroom = feature.Bathroom;
+            existingFeature.Bathrooms = feature.Bathrooms;  // Use "Bathrooms" instead of "Bathroom"
             existingFeature.Proximity = feature.Proximity;
             existingFeature.GeneralPolicy = feature.GeneralPolicy;
 
             await _context.SaveChangesAsync();
             return true;
         }
+
 
         public async Task<bool> DeleteFeature(int id) {
             var feature = await _context.Features.FirstOrDefaultAsync(f => f.FeatureID == id);

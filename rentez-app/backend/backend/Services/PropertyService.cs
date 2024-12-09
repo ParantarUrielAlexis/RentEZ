@@ -41,7 +41,7 @@ namespace backend.Services {
                 UserID = dto.UserID,
                 FeatureID = dto.FeatureID,
                 
-                ImageID = dto.ImageID,
+               
                 Name = dto.Name,
                 Street = dto.Street,
                 City = dto.City,
@@ -59,7 +59,7 @@ namespace backend.Services {
             property.UserID = dto.UserID;
             property.FeatureID = dto.FeatureID;
             
-            property.ImageID = dto.ImageID;
+        
             property.Name = dto.Name;
             property.Street = dto.Street;
             property.City = dto.City;

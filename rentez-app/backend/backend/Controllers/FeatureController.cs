@@ -38,10 +38,10 @@ namespace backend.Controllers {
             }
 
             var feature = new Feature {
-                Bedroom = featureDTO.Bedroom,
+                Bedrooms = featureDTO.Bedroom, // Adjusted to match the model
                 Capacity = featureDTO.Capacity,
                 Type = featureDTO.Type,
-                Bathroom = featureDTO.Bathroom,
+                Bathrooms = featureDTO.Bathroom, // Adjusted to match the model
                 Proximity = featureDTO.Proximity,
                 GeneralPolicy = featureDTO.GeneralPolicy
             };
@@ -49,6 +49,7 @@ namespace backend.Controllers {
             var createdFeature = await _featureService.CreateFeature(feature);
             return CreatedAtAction(nameof(GetFeature), new { id = createdFeature.FeatureID }, createdFeature);
         }
+
 
         // PUT: api/Feature/5
         [HttpPut("{id}")]
