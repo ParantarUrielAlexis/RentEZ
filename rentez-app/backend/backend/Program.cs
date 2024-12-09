@@ -1,41 +1,37 @@
-using backend;
+using backend.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-
-
-// connecting to db
-builder.Services.AddDbContext<RentEZDbContext>(db => db.UseSqlite(builder.Configuration.GetConnectionString("RentEZDbConnectionString")), ServiceLifetime.Scoped
+// Connect to DB
+builder.Services.AddDbContext<RentEZDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("RentEZDbConnectionString"))
 );
 
+// Add controllers and Swagger/OpenAPI services
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-
-
-// CORS
-var provider = builder.Services.BuildServiceProvider();
-var configuration = provider.GetRequiredService<IConfiguration>();
-builder.Services.AddCors(options =>
-{
-    var frontendURL = configuration.GetValue<string>("frontend_url");
-
-    options.AddDefaultPolicy(builder => {
-        builder.WithOrigins(frontendURL)
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    });
-});
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// CORS configuration
+builder.Services.AddCors(options =>
+{
+    var frontendURL = builder.Configuration.GetValue<string>("FrontendUrl"); // Correct the config key name here
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.WithOrigins(frontendURL)
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment()) {
+// Configure the HTTP request pipeline
+if (app.Environment.IsDevelopment())
+{
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "webapi v1"));
@@ -43,9 +39,10 @@ if (app.Environment.IsDevelopment()) {
 
 app.UseHttpsRedirection();
 
-
+// Apply CORS policy
 app.UseCors();
 
+// Use authorization (if required)
 app.UseAuthorization();
 
 app.MapControllers();

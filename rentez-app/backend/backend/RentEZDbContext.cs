@@ -1,21 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using backend.Models;  // Correct namespace for your models
 
+namespace backend.Data // Make sure this matches your folder structure
+{
+    public class RentEZDbContext : DbContext
+    {
+        public RentEZDbContext(DbContextOptions<RentEZDbContext> options) : base(options) { }
 
-namespace backend {
-    public class RentEZDbContext : DbContext {
-        public RentEZDbContext(DbContextOptions<RentEZDbContext> options) : base(options)
-        {
-            
-        }
-
-        // registering the model, model folder still empty
-        
-
-
-        // allows us to put data into the database
-        protected override void OnModelCreating(ModelBuilder modelBuilder) {
-            // empty for now no tables to put data in
-        }
-     
+        public DbSet<User> Users { get; set; }
     }
 }
