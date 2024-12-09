@@ -349,6 +349,10 @@ C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Deve
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
@@ -364,6 +368,7 @@ C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Deve
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\System.IO.Pipelines.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\System.Text.Json.dll
@@ -472,10 +477,13 @@ C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Deve
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.backend.props
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\backend.csproj.Up2Date
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\backend.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\refint\backend.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\ref\backend.dll
-C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

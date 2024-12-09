@@ -68,7 +68,16 @@ namespace backend.Controllers
             // If successful, return a success message (In a real app, you should issue a token here)
             return Ok(new { message = "Login successful." });
         }
+        [HttpGet("isLoggedIn")]
+        public IActionResult IsLoggedIn()
+        {
+            var isLoggedIn = HttpContext.Session.GetString("UserLoggedIn") == "true";
+            var username = HttpContext.Session.GetString("UserName");
+
+            return Ok(new { isLoggedIn, username });
+        }
     }
+
 
     // Model to receive login credentials
     public class LoginRequest

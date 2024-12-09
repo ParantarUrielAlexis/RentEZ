@@ -28,9 +28,13 @@ function Login() {
             const result = await response.json();
 
             if (response.ok) {
+                // Store login state in localStorage
+                localStorage.setItem("isLoggedIn", true);
+                localStorage.setItem("username", result.username); // Store username if available
+
                 setSuccessMessage(result.message);
                 setTimeout(() => {
-                    navigate("/"); // Redirect to dashboard after successful login
+                    navigate("/"); // Redirect to home page
                 }, 2000);
             } else {
                 setErrorMessage(result.message || "Login failed. Please try again.");
@@ -40,6 +44,7 @@ function Login() {
             setErrorMessage("An error occurred. Please try again later.");
         }
     };
+
 
     return (
         <div className="login-container">

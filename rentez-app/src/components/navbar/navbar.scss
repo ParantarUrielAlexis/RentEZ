@@ -1,113 +1,142 @@
 @import "../../responsive.scss";
 
 nav {
-  font-family: "Satoshi", sans-serif;
-  display: flex;
-  justify-content: space-between;
-  height: 100px;
-  align-items: center;
-
-  a {
-    color: black;
-    text-decoration: none;
-    transition: all 0.4s ease;
-
-    @include sm {
-      display: none;
-    }
-
-    &:hover {
-      scale: 1.05;
-    }
-  }
-
-  .left {
-    flex: 3;
+    font-family: "Satoshi", sans-serif;
     display: flex;
+    justify-content: space-between;
+    height: 100px;
     align-items: center;
-    gap: 50px;
 
-    .logo {
-      font-weight: bold;
-      font-size: 20px;
-      display: flex;
-      gap: 10px;
-      align-items: center;
-
-      img {
-        width: 28px;
-      }
-
-      span {
-        @include md {
-          display: none;
-        }
-        @include sm {
-          display: initial;
-        }
-      }
-    }
-  }
-  .right {
-    flex: 2;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background-color: antiquewhite;
-    height: 100%;
-
-    @include md {
-      background-color: transparent;
-    }
     a {
-      padding: 12px 24px;
-      margin: 20px;
-    }
+        color: black;
+        text-decoration: none;
+        transition: all 0.4s ease;
 
-    .register {
-      background-color: yellow;
-    }
-
-    .menuIcon {
-      display: none;
-      z-index: 999;
-
-      img {
-        width: 36px;
-        height: 36px;
-        cursor: pointer;
-      }
-
-      @include sm {
-        display: initial;
-      }
-    }
-
-    .menu {
-      position: absolute;
-      top: 0;
-      right: -50%;
-      background-color: black;
-      color: white;
-      height: 100vh;
-      width: 50%;
-      transition: all 1s ease;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 24px;
-
-      &.active {
-        right: 0;
-      }
-
-      @include sm {
-        a {
-          color: white;
-          display: initial;
+        @include sm {
+            display: none;
         }
-      }
+
+        &:hover {
+            scale: 1.05;
+        }
     }
-  }
+
+    .logged-in {
+        position: relative;
+        display: flex;
+        align-items: center; /* Align profile and logout button horizontally */
+    }
+
+    .profile-btn {
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .logout {
+        display: none;
+        background-color: #f00; /* Red for logout button */
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 10px; /* Space between the profile and logout button */
+    }
+
+    .logged-in:hover .logout {
+        display: inline-block; /* Show logout button when hovering */
+    }
+
+    .left {
+        flex: 3;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        .logo {
+            font-weight: bold;
+            font-size: 20px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            img {
+                width: 28px;
+            }
+
+            span {
+                @include md {
+                    display: none;
+                }
+
+                @include sm {
+                    display: initial;
+                }
+            }
+        }
+    }
+
+    .right {
+        flex: 2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: antiquewhite;
+        height: 100%;
+
+        @include md {
+            background-color: transparent;
+        }
+
+        a {
+            padding: 12px 24px;
+            margin: 20px;
+        }
+
+        .register {
+            background-color: yellow;
+        }
+
+        .menuIcon {
+            display: none;
+            z-index: 999;
+
+            img {
+                width: 36px;
+                height: 36px;
+                cursor: pointer;
+            }
+
+            @include sm {
+                display: initial;
+            }
+        }
+
+        .menu {
+            position: absolute;
+            top: 0;
+            right: -50%;
+            background-color: black;
+            color: white;
+            height: 100vh;
+            width: 50%;
+            transition: all 1s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+
+            &.active {
+                right: 0;
+            }
+
+            @include sm {
+                a {
+                    color: white;
+                    display: initial;
+                }
+            }
+        }
+    }
 }

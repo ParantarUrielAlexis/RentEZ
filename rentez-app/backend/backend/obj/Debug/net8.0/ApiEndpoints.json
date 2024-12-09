@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "backend.Controllers.UserController",
+    "Method": "IsLoggedIn",
+    "RelativePath": "api/User/isLoggedIn",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.UserController",
     "Method": "Login",
     "RelativePath": "api/User/login",
     "HttpMethod": "POST",
