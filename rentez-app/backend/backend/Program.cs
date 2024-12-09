@@ -1,4 +1,6 @@
 using backend.Data;
+using backend.Repository;
+using backend.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<RentEZDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("RentEZDbConnectionString"))
 );
+
+// Register IPropertyRepository and its implementation
+builder.Services.AddScoped<IPropertyRepository, PropertyRepository>();  // Add this line
+builder.Services.AddScoped<IPropertyService, PropertyService>();
+
+// Register Feature Repository and Service
+builder.Services.AddScoped<IFeatureRepository, FeatureRepository>();
+builder.Services.AddScoped<IFeatureService, FeatureService>();
+
 
 // Add controllers and Swagger/OpenAPI services
 builder.Services.AddControllers();

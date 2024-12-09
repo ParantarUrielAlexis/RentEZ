@@ -8,5 +8,10 @@ namespace backend.Data // Make sure this matches your folder structure
         public RentEZDbContext(DbContextOptions<RentEZDbContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Property> Properties { get; set; }
+        public DbSet<Feature> Features { get; set; }
+        
+
+    
     }
 }
