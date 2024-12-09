@@ -3,9 +3,11 @@
     "",
     "\\backend",
     "\\backend\\Controllers",
+    "\\backend\\DTO",
+    "\\backend\\Models",
     "\\backend\\Repository",
     "\\backend\\Services"
   ],
-  "SelectedNode": "\\backend.sln",
+  "SelectedNode": "\\backend\\RentEZDbContext.cs",
   "PreviewInSolutionExplorer": false
 }

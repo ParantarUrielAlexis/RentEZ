@@ -11,6 +11,10 @@ public class Property {
     public string Description { get; set; } = string.Empty;
     public decimal Price { get; set; }
 
+
+    // Navigation property for the one-to-many relationship with Images
+    public ICollection<Image> Images { get; set; } = new List<Image>();
+
     // Navigation property to Feature
     public Feature Feature { get; set; }
 
