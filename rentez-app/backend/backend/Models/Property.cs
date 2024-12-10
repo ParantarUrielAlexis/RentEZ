@@ -16,8 +16,8 @@ public class Property {
     public ICollection<Image> Images { get; set; } = new List<Image>();
 
     // Navigation property to Feature
-    public Feature Feature { get; set; }
+    public Feature? Feature { get; set; }
 
     // Navigation property to User
-    public User User { get; set; }
+    public User? User { get; set; }
 }

@@ -40,8 +40,6 @@ namespace backend.Services {
             var property = new Property {
                 UserID = dto.UserID,
                 FeatureID = dto.FeatureID,
-                
-               
                 Name = dto.Name,
                 Street = dto.Street,
                 City = dto.City,
@@ -58,7 +56,6 @@ namespace backend.Services {
 
             property.UserID = dto.UserID;
             property.FeatureID = dto.FeatureID;
-            
         
             property.Name = dto.Name;
             property.Street = dto.Street;
