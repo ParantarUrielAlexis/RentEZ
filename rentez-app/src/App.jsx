@@ -20,7 +20,8 @@ function App() {
         <div className="layout">
           <Navbar />
           <Routes>
-            <Route path="/" element={<SinglePage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/feature" element={<SinglePage />} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/create-post" element={<CreatePost />} />
             <Route path="/edit-contact-card" element={<EditContactCard />} />

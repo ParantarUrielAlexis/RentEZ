@@ -487,3 +487,11 @@ C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Deve
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\ref\backend.dll
 C:\Users\Lance Antor\OneDrive\Desktop\3RD YEAR\1ST SEM\CSIT321 Applications Development and Emerging Technologies\proj\rentez-app\backend\backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Uriel\Documents\RentEZ\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Uriel\Documents\RentEZ\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Uriel\Documents\RentEZ\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Uriel\Documents\RentEZ\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Uriel\Documents\RentEZ\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Uriel\Documents\RentEZ\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Uriel\Documents\RentEZ\rentez-app\backend\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Uriel\Documents\RentEZ\rentez-app\backend\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

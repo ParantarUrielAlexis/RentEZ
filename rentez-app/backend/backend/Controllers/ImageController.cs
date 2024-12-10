@@ -1,5 +1,6 @@
 ﻿using backend.Models;
 using backend.Services;
+using backend.DTO; // Import the DTO
 using Microsoft.AspNetCore.Mvc;
 
 namespace backend.Controllers {
@@ -12,12 +13,14 @@ namespace backend.Controllers {
             _service = service;
         }
 
+        // Get all images
         [HttpGet]
         public async Task<IActionResult> GetAll() {
             var images = await _service.GetAllAsync();
             return Ok(images);
         }
 
+        // Get image by ID
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id) {
             var image = await _service.GetByIdAsync(id);
@@ -25,13 +28,22 @@ namespace backend.Controllers {
             return Ok(image);
         }
 
+        // Create a new image using CreateImageDTO
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Image image) {
-            if (image == null) return BadRequest();
+        public async Task<IActionResult> Post([FromBody] CreateImageDTO createImageDTO) {
+            if (createImageDTO == null) return BadRequest();
+
+            // Map CreateImageDTO to Image model
+            var image = new Image {
+                PropertyID = createImageDTO.PropertyID,
+                ImageURL = createImageDTO.ImageURL
+            };
+
             var createdImage = await _service.CreateAsync(image);
             return CreatedAtAction(nameof(GetById), new { id = createdImage.ImageID }, createdImage);
         }
 
+        // Update an existing image
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] Image image) {
             if (image == null || id != image.ImageID) return BadRequest();
@@ -41,6 +53,7 @@ namespace backend.Controllers {
             return NoContent();
         }
 
+        // Delete an image
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id) {
             var success = await _service.DeleteAsync(id);
