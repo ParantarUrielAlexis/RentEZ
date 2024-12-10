@@ -1,0 +1,105 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+.homepage {
+  font-family: "Satoshi", sans-serif;
+  padding: 20px;
+  margin-top: 150px;
+
+  .homepage-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .homepage-logo {
+      height: 50px;
+    }
+  }
+
+  .hero {
+    margin-bottom: 40px;
+
+    .hero-title {
+      font-size: 3.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .hero-description {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .search-bar {
+      margin-top: 20px;
+      .search-toggle {
+        display: flex;
+
+        margin-bottom: 10px;
+
+        .search-btn {
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+          font-weight: bold;
+          transition: 0.3s;
+
+          &.active {
+            background-color: black;
+            color: white;
+          }
+
+          &:not(.active) {
+            background-color: #f0f0f0;
+          }
+
+          &:hover {
+            background-color: #ddd;
+          }
+        }
+      }
+
+      .search-fields {
+        display: flex;
+
+        input {
+          padding: 10px;
+
+          border: 1px solid #ccc;
+
+          flex: 1;
+          max-width: 200px;
+        }
+
+        .search-icon {
+          background-color: rgb(243, 198, 0);
+          border: none;
+          padding: 20px;
+          font-size: 20px;
+          color: white;
+          cursor: pointer;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .statistics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+
+    .stat {
+      text-align: center;
+
+      .stat-number {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+
+      .stat-text {
+        color: #555;
+      }
+    }
+  }
+}
