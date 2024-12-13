@@ -53,6 +53,30 @@ namespace backend.Migrations
                     b.HasIndex("UserID");
 
                     b.ToTable("Properties");
+
+                    b.HasData(
+                        new
+                        {
+                            PropertyID = 1,
+                            City = "Metropolis",
+                            Description = "A cozy apartment in the heart of the city.",
+                            Name = "Cozy Apartment",
+                            Price = 1200.00m,
+                            Province = "NY",
+                            Street = "123 Main St",
+                            UserID = 1
+                        },
+                        new
+                        {
+                            PropertyID = 2,
+                            City = "Gotham",
+                            Description = "A luxurious villa with stunning views.",
+                            Name = "Luxury Villa",
+                            Price = 5000.00m,
+                            Province = "CA",
+                            Street = "456 Elm St",
+                            UserID = 2
+                        });
                 });
 
             modelBuilder.Entity("backend.Models.User", b =>
