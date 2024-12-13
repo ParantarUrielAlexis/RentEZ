@@ -309,7 +309,19 @@
             "type": "string",
             "nullable": true
           },
-          "imageUrl": {
+          "imageUrl1": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl2": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl3": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl4": {
             "type": "string",
             "nullable": true
           }
@@ -429,7 +441,19 @@
             "type": "string",
             "nullable": true
           },
-          "imageUrl": {
+          "imageUrl1": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl2": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl3": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl4": {
             "type": "string",
             "nullable": true
           },

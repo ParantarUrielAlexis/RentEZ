@@ -16,7 +16,10 @@ export const CreatePost = () => {
     bathroom: "",
     type: "",
     proximity: "",
-    imageurl: "",
+    imageurl1: "",
+    imageurl2: "",
+    imageurl3: "",
+    imageurl4: "",
   });
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
@@ -56,7 +59,10 @@ export const CreatePost = () => {
             bathroom: "",
             type: "",
             proximity: "",
-            imageurl: "",
+            imageurl1: "",
+            imageurl2: "",
+            imageurl3: "",
+            imageurl4: "",
           });
       } else {
         const result = await response.json();
@@ -164,9 +170,36 @@ export const CreatePost = () => {
 
         <input
           type="file"
-          name="imageurl"
-          placeholder="imageurl"
-          value={formData.imageurl}
+          name="imageurl1"
+          placeholder="imageurl1"
+          value={formData.imageurl1}
+          onChange={handleChange}
+          required
+        />
+
+        <input
+          type="file"
+          name="imageurl2"
+          placeholder="imageurl2"
+          value={formData.imageurl2}
+          onChange={handleChange}
+          required
+        />
+
+        <input
+          type="file"
+          name="imageurl3"
+          placeholder="imageurl3"
+          value={formData.imageurl3}
+          onChange={handleChange}
+          required
+        />
+        
+        <input
+          type="file"
+          name="imageurl4"
+          placeholder="imageurl4"
+          value={formData.imageurl4}
           onChange={handleChange}
           required
         />

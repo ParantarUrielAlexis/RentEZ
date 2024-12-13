@@ -12,7 +12,11 @@
         public decimal Bathroom { get; set; }
         public string Type { get; set; } = string.Empty;
         public string Proximity { get; set; } = string.Empty;
-        public string ImageUrl { get; set; } = string.Empty;
+        public string ImageUrl1 { get; set; } = string.Empty;
+        public string ImageUrl2 { get; set; } = string.Empty;
+        public string ImageUrl3 { get; set; } = string.Empty;
+        public string ImageUrl4 { get; set; } = string.Empty;
+
     }
 
     public class CreatePropertyDTO {
@@ -28,6 +32,9 @@
         public decimal Bathroom { get; set; }
         public string Type { get; set; } = string.Empty;
         public string Proximity { get; set; } = string.Empty;
-        public string ImageUrl { get; set; } = string.Empty;
+        public string ImageUrl1 { get; set; } = string.Empty;
+        public string ImageUrl2 { get; set; } = string.Empty;
+        public string ImageUrl3 { get; set; } = string.Empty;
+        public string ImageUrl4 { get; set; } = string.Empty;
     }
 }
