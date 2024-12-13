@@ -1,6 +1,7 @@
 ﻿using backend.DTO;
 using backend.Models;
 using backend.Repository;
+using System;
 
 namespace backend.Services {
     public class PropertyService : IPropertyService {
@@ -19,7 +20,12 @@ namespace backend.Services {
                 City = p.City,
                 Province = p.Province,
                 Description = p.Description,
-                Price = p.Price
+                Price = p.Price,
+                Bedroom = p.Bedroom,
+                Person = p.Person,
+                Bathroom = p.Bathroom,
+                Type = p.Type,
+                Proximity = p.Proximity,
             });
         }
 
@@ -32,7 +38,12 @@ namespace backend.Services {
                 City = property.City,
                 Province = property.Province,
                 Description = property.Description,
-                Price = property.Price
+                Price = property.Price,
+                Bedroom = property.Bedroom,
+                Person = property.Person,
+                Bathroom = property.Bathroom,
+                Type = property.Type,
+                Proximity = property.Proximity,
             };
         }
 
@@ -44,7 +55,12 @@ namespace backend.Services {
                 City = dto.City,
                 Province = dto.Province,
                 Description = dto.Description,
-                Price = dto.Price
+                Price = dto.Price,
+                Bedroom = dto.Bedroom,
+                Person = dto.Person,
+                Bathroom = dto.Bathroom,
+                Type = dto.Type,
+                Proximity = dto.Proximity,
             };
             await _repository.AddAsync(property);
         }
@@ -60,6 +76,11 @@ namespace backend.Services {
             property.Province = dto.Province;
             property.Description = dto.Description;
             property.Price = dto.Price;
+            property.Bedroom = dto.Bedroom;
+            property.Person = dto.Person;
+            property.Bathroom = dto.Bathroom;
+            property.Type = dto.Type;
+            property.Proximity = dto.Proximity;
 
             await _repository.UpdateAsync(property);
         }

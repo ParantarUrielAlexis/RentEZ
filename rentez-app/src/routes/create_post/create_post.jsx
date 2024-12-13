@@ -11,6 +11,11 @@ export const CreatePost = () => {
     province: "",
     description: "",
     price: "100",
+    bedroom: "",
+    person: "",
+    bathroom: "",
+    type: "",
+    proximity: "",
   });
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
@@ -45,6 +50,11 @@ export const CreatePost = () => {
             province: "",
             description: "",
             price: "100",
+            bedroom: "",
+            person: "",
+            bathroom: "",
+            type: "",
+            proximity: "",
           });
       } else {
         const result = await response.json();
@@ -106,6 +116,46 @@ export const CreatePost = () => {
           name="price"
           placeholder="Price"
           value={formData.price}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="bedroom"
+          placeholder="no of bedroom"
+          value={formData.bedroom}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="person"
+          placeholder="no of person"
+          value={formData.person}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="bathroom"
+          placeholder="no of bathroom"
+          value={formData.bathroom}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="type"
+          placeholder="type"
+          value={formData.type}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="proximity"
+          placeholder="proximity"
+          value={formData.proximity}
           onChange={handleChange}
           required
         />
