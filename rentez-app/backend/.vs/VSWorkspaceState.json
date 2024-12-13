@@ -4,10 +4,11 @@
     "\\backend",
     "\\backend\\Controllers",
     "\\backend\\DTO",
+    "\\backend\\Migrations",
     "\\backend\\Models",
     "\\backend\\Repository",
     "\\backend\\Services"
   ],
-  "SelectedNode": "\\backend.sln",
+  "SelectedNode": "\\backend\\Migrations\\20241210093519_ImageControllerFix.cs",
   "PreviewInSolutionExplorer": false
 }

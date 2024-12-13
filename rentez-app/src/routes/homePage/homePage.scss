@@ -34,7 +34,6 @@
       margin-top: 20px;
       .search-toggle {
         display: flex;
-
         margin-bottom: 10px;
 
         .search-btn {
@@ -64,9 +63,7 @@
 
         input {
           padding: 10px;
-
           border: 1px solid #ccc;
-
           flex: 1;
           max-width: 200px;
         }
@@ -99,6 +96,138 @@
 
       .stat-text {
         color: #555;
+      }
+    }
+  }
+
+  .featured-properties {
+    margin-top: 80px;
+    text-align: center;
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .property-list {
+      display: flex;
+      justify-content: space-around;
+
+      .property-card {
+        width: 300px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+
+        img {
+          width: 100%;
+          border-radius: 8px;
+        }
+
+        h3 {
+          font-size: 1.5rem;
+          margin-top: 20px;
+        }
+
+        p {
+          color: #777;
+          margin-top: 10px;
+        }
+
+        .property-button {
+          background-color: #4caf50;
+          border: none;
+          color: white;
+          padding: 10px 20px;
+          font-size: 1rem;
+          border-radius: 6px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+
+          &:hover {
+            background-color: #45a049;
+          }
+        }
+      }
+    }
+  }
+
+  .testimonials {
+    margin-top: 80px;
+    text-align: center;
+    background-color: #faebd7;
+    padding: 20px;
+    border-radius: 8px;
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .testimonial-list {
+      display: flex;
+      justify-content: space-around;
+
+      .testimonial {
+        width: 300px;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        p {
+          font-size: 1rem;
+          color: #555;
+          margin-bottom: 20px;
+        }
+
+        h4 {
+          font-size: 1.2rem;
+          font-weight: bold;
+          color: #333;
+        }
+      }
+    }
+  }
+
+  .why-choose-us {
+    margin-top: 80px;
+    text-align: center;
+    background-color: #f1ffdb;
+    padding: 20px;
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .reasons {
+      display: flex;
+      justify-content: space-around;
+
+      .reason {
+        width: 250px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        i {
+          font-size: 3rem;
+          color: #f3c600;
+        }
+
+        h3 {
+          margin-top: 20px;
+          font-size: 1.5rem;
+        }
+
+        p {
+          color: #777;
+          margin-top: 10px;
+        }
       }
     }
   }

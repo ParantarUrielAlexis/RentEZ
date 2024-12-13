@@ -1,0 +1,185 @@
+// contactUs.scss
+
+// Color palette
+$primary-color: #000000;
+$secondary-color: #333;
+$highlight-color: #f1f1f1;
+$button-hover: #eefd97;
+$border-color: #ddd;
+$gradient-start: #f2ffa8; // Yellow gradient start
+$gradient-end: rgb(255, 253, 165); // Yellow gradient end
+
+// Global styles
+
+// Container for the entire page
+.contact-us-container {
+  font-family: "Satoshi", sans-serif;
+  width: 100%;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+// Header section
+.contact-us-header {
+  text-align: center;
+  margin-bottom: 40px;
+
+  h1 {
+    font-size: 36px;
+    color: $primary-color;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    color: $secondary-color;
+  }
+}
+
+// Contact form section
+.contact-us-form {
+  background-color: $highlight-color;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+
+  .form-wrapper {
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: $primary-color;
+    }
+
+    form {
+      .form-group {
+        margin-bottom: 20px;
+
+        label {
+          display: block;
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid $border-color;
+          border-radius: 6px;
+          font-size: 16px;
+          background-color: #fff;
+          color: $secondary-color;
+
+          &:focus {
+            outline: none;
+            border-color: $primary-color;
+            box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+          }
+        }
+
+        textarea {
+          resize: vertical;
+        }
+      }
+
+      .submit-button {
+        padding: 14px 30px;
+        background-color: #f2ffa8;
+        border: none;
+        border-radius: 6px;
+        color: black;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: $button-hover;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+// Contact info section
+.contact-us-info {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .info-wrapper {
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: $primary-color;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        font-size: 16px;
+        margin-bottom: 15px;
+
+        strong {
+          font-weight: bold;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+// Footer section
+.contact-us-footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  font-size: 14px;
+  color: $secondary-color;
+
+  p {
+    margin: 0;
+  }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .contact-us-form,
+  .contact-us-info {
+    padding: 20px;
+  }
+
+  .form-wrapper {
+    h2 {
+      font-size: 24px;
+    }
+
+    .form-group {
+      input,
+      textarea {
+        font-size: 14px;
+      }
+    }
+
+    .submit-button {
+      font-size: 16px;
+    }
+  }
+
+  .contact-us-header h1 {
+    font-size: 28px;
+  }
+
+  .contact-us-footer {
+    font-size: 12px;
+  }
+}

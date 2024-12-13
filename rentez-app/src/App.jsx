@@ -11,6 +11,8 @@ import SearchResult from "./routes/search_result/SearchResult";
 import SignUp from "./routes/signup/Signup";
 import Login from "./routes/login/Login";
 import HomePage from "./routes/homePage/homePage";
+import AboutUsPage from "./routes/aboutUs/aboutUs";
+import ContactUsPage from "./routes/contactUs/contactUs";
 import { AuthProvider } from "./context/AuthContext"; // Ensure correct import path
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
             <Route path="/search-result" element={<SearchResult />} />
             <Route path="/sign-up" element={<SignUp />} />
             <Route path="/sign-in" element={<Login />} />
+            <Route path="/about" element={<AboutUsPage />} />
+            <Route path="/contact" element={<ContactUsPage />} />
           </Routes>
         </div>
       </Router>
