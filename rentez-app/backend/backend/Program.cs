@@ -19,14 +19,6 @@ builder.Services.AddDbContext<RentEZDbContext>(options =>
 builder.Services.AddScoped<IPropertyRepository, PropertyRepository>();
 builder.Services.AddScoped<IPropertyService, PropertyService>();
 
-// Register Feature Repository and Service
-builder.Services.AddScoped<IFeatureRepository, FeatureRepository>();
-builder.Services.AddScoped<IFeatureService, FeatureService>();
-
-builder.Services.AddScoped<IImageRepository, ImageRepository>();
-builder.Services.AddScoped<IImageService, ImageService>();
-
-
 
 // Add controllers and Swagger/OpenAPI services
 builder.Services.AddControllers();

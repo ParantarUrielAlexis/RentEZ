@@ -1,42 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\",
+  "WorkspaceRootPath": "D:\\School\\CSIT321\\rentez-app\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Migrations\\20241210093519_ImageControllerFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Migrations\\20241210093519_ImageControllerFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Migrations\\20241213062132_KentRemoveImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Migrations\\20241213062132_KentRemoveImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|d:\\school\\csit321\\rentez-app\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\repository\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\repository\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|d:\\school\\csit321\\rentez-app\\backend\\backend\\rentezdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\rentezdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\dto\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\dto\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|d:\\school\\csit321\\rentez-app\\backend\\backend\\repository\\dummy3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\repository\\dummy3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\dto\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|d:\\school\\csit321\\rentez-app\\backend\\backend\\dto\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\dto\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|d:\\school\\csit321\\rentez-app\\backend\\backend\\migrations\\20241213060222_rollbackwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\migrations\\20241213060222_rollbackwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|c:\\users\\uriel\\documents\\rentez\\rentez-app\\backend\\backend\\dto\\featuredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\dto\\featuredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|d:\\school\\csit321\\rentez-app\\backend\\backend\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|d:\\school\\csit321\\rentez-app\\backend\\backend\\services\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\services\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|d:\\school\\csit321\\rentez-app\\backend\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|d:\\school\\csit321\\rentez-app\\backend\\backend\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775CDBA6-18CF-492A-8ABB-0C4A0AD1B6E5}|backend\\backend.csproj|solutionrelative:backend\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,119 +55,128 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241210093519_ImageControllerFix.cs",
-              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Migrations\\20241210093519_ImageControllerFix.cs",
-              "RelativeDocumentMoniker": "backend\\Migrations\\20241210093519_ImageControllerFix.cs",
-              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Migrations\\20241210093519_ImageControllerFix.cs",
-              "RelativeToolTip": "backend\\Migrations\\20241210093519_ImageControllerFix.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "20241213062132_KentRemoveImage.cs",
+              "DocumentMoniker": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Migrations\\20241213062132_KentRemoveImage.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20241213062132_KentRemoveImage.cs",
+              "ToolTip": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Migrations\\20241213062132_KentRemoveImage.cs",
+              "RelativeToolTip": "backend\\Migrations\\20241213062132_KentRemoveImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:35:19.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PropertyController.cs",
-              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Controllers\\PropertyController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\PropertyController.cs",
-              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Controllers\\PropertyController.cs",
-              "RelativeToolTip": "backend\\Controllers\\PropertyController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:32:43.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ImageController.cs",
-              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Controllers\\ImageController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\ImageController.cs",
-              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Controllers\\ImageController.cs",
-              "RelativeToolTip": "backend\\Controllers\\ImageController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:32:34.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Repository\\ImageRepository.cs",
-              "RelativeDocumentMoniker": "backend\\Repository\\ImageRepository.cs",
-              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Repository\\ImageRepository.cs",
-              "RelativeToolTip": "backend\\Repository\\ImageRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:30:37.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ImageService.cs",
-              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Services\\ImageService.cs",
-              "RelativeDocumentMoniker": "backend\\Services\\ImageService.cs",
-              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Services\\ImageService.cs",
-              "RelativeToolTip": "backend\\Services\\ImageService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:30:31.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Image.cs",
-              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Models\\Image.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\Image.cs",
-              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\Models\\Image.cs",
-              "RelativeToolTip": "backend\\Models\\Image.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:21:40.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FeatureDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\DTO\\FeatureDTO.cs",
-              "RelativeDocumentMoniker": "backend\\DTO\\FeatureDTO.cs",
-              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\DTO\\FeatureDTO.cs",
-              "RelativeToolTip": "backend\\DTO\\FeatureDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:21:01.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PropertyDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\DTO\\PropertyDTO.cs",
-              "RelativeDocumentMoniker": "backend\\DTO\\PropertyDTO.cs",
-              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\DTO\\PropertyDTO.cs",
-              "RelativeToolTip": "backend\\DTO\\PropertyDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:20:59.604Z",
+              "WhenOpened": "2024-12-13T06:21:32.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ImageDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\DTO\\ImageDTO.cs",
-              "RelativeDocumentMoniker": "backend\\DTO\\ImageDTO.cs",
-              "ToolTip": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\DTO\\ImageDTO.cs",
-              "RelativeToolTip": "backend\\DTO\\ImageDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Title": "dummy3.cs",
+              "DocumentMoniker": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Repository\\dummy3.cs",
+              "RelativeDocumentMoniker": "backend\\Repository\\dummy3.cs",
+              "ToolTip": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Repository\\dummy3.cs",
+              "RelativeToolTip": "backend\\Repository\\dummy3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:20:50.92Z",
+              "WhenOpened": "2024-12-13T06:18:16.151Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241213060222_RollbackWork.cs",
+              "DocumentMoniker": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Migrations\\20241213060222_RollbackWork.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20241213060222_RollbackWork.cs",
+              "ToolTip": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Migrations\\20241213060222_RollbackWork.cs",
+              "RelativeToolTip": "backend\\Migrations\\20241213060222_RollbackWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T06:02:22.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentEZDbContext.cs",
+              "DocumentMoniker": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\RentEZDbContext.cs",
+              "RelativeDocumentMoniker": "backend\\RentEZDbContext.cs",
+              "ToolTip": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\RentEZDbContext.cs",
+              "RelativeToolTip": "backend\\RentEZDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T05:59:55.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPropertyService.cs",
+              "DocumentMoniker": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Services\\IPropertyService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\IPropertyService.cs",
+              "ToolTip": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Services\\IPropertyService.cs",
+              "RelativeToolTip": "backend\\Services\\IPropertyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T05:59:31.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\User.cs",
+              "ToolTip": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Models\\User.cs",
+              "RelativeToolTip": "backend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T05:59:06.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAWwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T06:00:51.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Services\\PropertyService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\PropertyService.cs",
+              "ToolTip": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Services\\PropertyService.cs",
+              "RelativeToolTip": "backend\\Services\\PropertyService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowDcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T05:59:32.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PropertyDTO.cs",
+              "DocumentMoniker": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\DTO\\PropertyDTO.cs",
+              "RelativeDocumentMoniker": "backend\\DTO\\PropertyDTO.cs",
+              "ToolTip": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\DTO\\PropertyDTO.cs",
+              "RelativeToolTip": "backend\\DTO\\PropertyDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T05:57:17.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Property.cs",
+              "DocumentMoniker": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Property.cs",
+              "ToolTip": "D:\\School\\CSIT321\\rentez-app\\backend\\backend\\Models\\Property.cs",
+              "RelativeToolTip": "backend\\Models\\Property.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T05:58:40.731Z"
             }
           ]
         }

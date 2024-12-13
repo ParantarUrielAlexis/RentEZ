@@ -9,9 +9,6 @@ namespace backend.Data // Make sure this matches your folder structure
 
         public DbSet<User> Users { get; set; }
         public DbSet<Property> Properties { get; set; }
-        public DbSet<Feature> Features { get; set; }
-
-        public DbSet<Image> Images { get; set; }
 
     }
 }
