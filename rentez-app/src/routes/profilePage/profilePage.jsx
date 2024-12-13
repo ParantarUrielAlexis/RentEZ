@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
 function ProfilePage() {
   return (
     <div
@@ -198,7 +199,7 @@ function ProfilePage() {
               e.target.style.transform = "scale(1)";
             }}
           >
-            Update Profile
+            <Link to="/update-profile">Update Profile</Link>
           </button>
         </div>
 
