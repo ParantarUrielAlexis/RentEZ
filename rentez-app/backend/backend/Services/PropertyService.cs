@@ -26,6 +26,7 @@ namespace backend.Services {
                 Bathroom = p.Bathroom,
                 Type = p.Type,
                 Proximity = p.Proximity,
+                ImageUrl = p.ImageUrl,
             });
         }
 
@@ -44,6 +45,7 @@ namespace backend.Services {
                 Bathroom = property.Bathroom,
                 Type = property.Type,
                 Proximity = property.Proximity,
+                ImageUrl = property.ImageUrl,
             };
         }
 
@@ -61,6 +63,7 @@ namespace backend.Services {
                 Bathroom = dto.Bathroom,
                 Type = dto.Type,
                 Proximity = dto.Proximity,
+                ImageUrl = dto.ImageUrl,
             };
             await _repository.AddAsync(property);
         }
@@ -81,6 +84,7 @@ namespace backend.Services {
             property.Bathroom = dto.Bathroom;
             property.Type = dto.Type;
             property.Proximity = dto.Proximity;
+            property.ImageUrl = dto.ImageUrl;
 
             await _repository.UpdateAsync(property);
         }

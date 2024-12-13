@@ -16,6 +16,7 @@ export const CreatePost = () => {
     bathroom: "",
     type: "",
     proximity: "",
+    imageurl: "",
   });
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
@@ -55,6 +56,7 @@ export const CreatePost = () => {
             bathroom: "",
             type: "",
             proximity: "",
+            imageurl: "",
           });
       } else {
         const result = await response.json();
@@ -156,6 +158,15 @@ export const CreatePost = () => {
           name="proximity"
           placeholder="proximity"
           value={formData.proximity}
+          onChange={handleChange}
+          required
+        />
+
+        <input
+          type="file"
+          name="imageurl"
+          placeholder="imageurl"
+          value={formData.imageurl}
           onChange={handleChange}
           required
         />
