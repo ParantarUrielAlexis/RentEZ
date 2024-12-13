@@ -39,7 +39,6 @@ namespace backend.Services {
         public async Task CreateAsync(CreatePropertyDTO dto) {
             var property = new Property {
                 UserID = dto.UserID,
-                FeatureID = dto.FeatureID,
                 Name = dto.Name,
                 Street = dto.Street,
                 City = dto.City,
@@ -55,8 +54,6 @@ namespace backend.Services {
             if (property == null) return;
 
             property.UserID = dto.UserID;
-            property.FeatureID = dto.FeatureID;
-        
             property.Name = dto.Name;
             property.Street = dto.Street;
             property.City = dto.City;
