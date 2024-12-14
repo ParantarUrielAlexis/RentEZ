@@ -30,9 +30,7 @@
             "related": ".xml"
           }
         },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        "frameworkReferences": ["Microsoft.AspNetCore.App"]
       },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
@@ -1022,9 +1020,7 @@
             "related": ".pdb;.xml"
           }
         },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        "frameworkReferences": ["Microsoft.AspNetCore.App"]
       },
       "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
         "type": "package",
@@ -1054,9 +1050,7 @@
             "related": ".pdb;.xml"
           }
         },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        "frameworkReferences": ["Microsoft.AspNetCore.App"]
       },
       "System.CodeDom/6.0.0": {
         "type": "package",
@@ -3953,32 +3947,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Paulflores\\.nuget\\packages\\": {},
+    "C:\\Users\\Lance Antor\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paulflores\\Desktop\\rentez\\rentez-app\\backend\\backend\\backend.csproj",
+      "projectUniqueName": "C:\\Users\\Lance Antor\\OneDrive\\Desktop\\3RD YEAR\\PROJECT APPDEV\\rentez-app\\backend\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "C:\\Users\\Paulflores\\Desktop\\rentez\\rentez-app\\backend\\backend\\backend.csproj",
-      "packagesPath": "C:\\Users\\Paulflores\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paulflores\\Desktop\\rentez\\rentez-app\\backend\\backend\\obj\\",
+      "projectPath": "C:\\Users\\Lance Antor\\OneDrive\\Desktop\\3RD YEAR\\PROJECT APPDEV\\rentez-app\\backend\\backend\\backend.csproj",
+      "packagesPath": "C:\\Users\\Lance Antor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lance Antor\\OneDrive\\Desktop\\3RD YEAR\\PROJECT APPDEV\\rentez-app\\backend\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Paulflores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lance Antor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
-      "originalTargetFrameworks": [
-        "net8.0"
-      ],
+      "originalTargetFrameworks": ["net8.0"],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3988,9 +3979,7 @@
         }
       },
       "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
+        "warnAsError": ["NU1605"]
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
