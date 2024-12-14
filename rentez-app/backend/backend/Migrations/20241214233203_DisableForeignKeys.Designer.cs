@@ -10,7 +10,7 @@ using backend.Data;
 namespace backend.Migrations
 {
     [DbContext(typeof(RentEZDbContext))]
-    [Migration("20241209124725_DisableForeignKeys")]
+    [Migration("20241214233203_DisableForeignKeys")]
     partial class DisableForeignKeys
     {
         /// <inheritdoc />
@@ -18,38 +18,6 @@ namespace backend.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
-
-            modelBuilder.Entity("Feature", b =>
-                {
-                    b.Property<int>("FeatureID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Bathrooms")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Bedrooms")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Capacity")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("GeneralPolicy")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Proximity")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("FeatureID");
-
-                    b.ToTable("Features");
-                });
 
             modelBuilder.Entity("Property", b =>
                 {
@@ -64,9 +32,6 @@ namespace backend.Migrations
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("FeatureID")
-                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -88,11 +53,33 @@ namespace backend.Migrations
 
                     b.HasKey("PropertyID");
 
-                    b.HasIndex("FeatureID");
-
                     b.HasIndex("UserID");
 
                     b.ToTable("Properties");
+
+                    b.HasData(
+                        new
+                        {
+                            PropertyID = 1,
+                            City = "Metropolis",
+                            Description = "A cozy apartment in the heart of the city.",
+                            Name = "Cozy Apartment",
+                            Price = 1200.00m,
+                            Province = "NY",
+                            Street = "123 Main St",
+                            UserID = 1
+                        },
+                        new
+                        {
+                            PropertyID = 2,
+                            City = "Gotham",
+                            Description = "A luxurious villa with stunning views.",
+                            Name = "Luxury Villa",
+                            Price = 5000.00m,
+                            Province = "CA",
+                            Street = "456 Elm St",
+                            UserID = 2
+                        });
                 });
 
             modelBuilder.Entity("backend.Models.User", b =>
@@ -120,26 +107,13 @@ namespace backend.Migrations
 
             modelBuilder.Entity("Property", b =>
                 {
-                    b.HasOne("Feature", "Feature")
-                        .WithMany("Properties")
-                        .HasForeignKey("FeatureID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("backend.Models.User", "User")
                         .WithMany("Properties")
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Feature");
-
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Feature", b =>
-                {
-                    b.Navigation("Properties");
                 });
 
             modelBuilder.Entity("backend.Models.User", b =>
