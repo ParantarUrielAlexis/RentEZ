@@ -10,7 +10,7 @@ export const CreatePost = () => {
     street: "",
     province: "",
     description: "",
-    price: "100",
+    price: "",
     bedroom: "",
     person: "",
     bathroom: "",
@@ -53,7 +53,7 @@ export const CreatePost = () => {
             street: "",
             province: "",
             description: "",
-            price: "100",
+            price: "0",
             bedroom: "",
             person: "",
             bathroom: "",
@@ -125,30 +125,34 @@ export const CreatePost = () => {
           placeholder="Price"
           value={formData.price}
           onChange={handleChange}
+          min = "0"
           required
         />
         <input
-          type="text"
+          type="number"
           name="bedroom"
           placeholder="no of bedroom"
           value={formData.bedroom}
           onChange={handleChange}
+          min = "0"
           required
         />
         <input
-          type="text"
+          type="number"
           name="person"
           placeholder="no of person"
           value={formData.person}
           onChange={handleChange}
+          min = "0"
           required
         />
         <input
-          type="text"
+          type="number"
           name="bathroom"
           placeholder="no of bathroom"
           value={formData.bathroom}
           onChange={handleChange}
+          min = "0"
           required
         />
         <input
