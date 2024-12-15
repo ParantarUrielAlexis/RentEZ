@@ -172,6 +172,7 @@ export const CreatePost = () => {
           type="file"
           name="imageurl1"
           placeholder="imageurl1"
+          accept="image/*"
           value={formData.imageurl1}
           onChange={handleChange}
           required
@@ -181,6 +182,7 @@ export const CreatePost = () => {
           type="file"
           name="imageurl2"
           placeholder="imageurl2"
+          accept="image/*"
           value={formData.imageurl2}
           onChange={handleChange}
           required
@@ -190,6 +192,7 @@ export const CreatePost = () => {
           type="file"
           name="imageurl3"
           placeholder="imageurl3"
+          accept="image/*"
           value={formData.imageurl3}
           onChange={handleChange}
           required
@@ -199,6 +202,7 @@ export const CreatePost = () => {
           type="file"
           name="imageurl4"
           placeholder="imageurl4"
+          accept="image/*"
           value={formData.imageurl4}
           onChange={handleChange}
           required
