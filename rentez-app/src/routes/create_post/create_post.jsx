@@ -10,7 +10,7 @@ export const CreatePost = () => {
     street: "",
     province: "",
     description: "",
-    price: "100",
+    price: "",
     bedroom: "",
     person: "",
     bathroom: "",
@@ -53,7 +53,7 @@ export const CreatePost = () => {
             street: "",
             province: "",
             description: "",
-            price: "100",
+            price: "",
             bedroom: "",
             person: "",
             bathroom: "",
@@ -125,40 +125,41 @@ export const CreatePost = () => {
           placeholder="Price"
           value={formData.price}
           onChange={handleChange}
+          min = "0"
           required
         />
         <input
-          type="text"
+          type="number"
           name="bedroom"
           placeholder="no of bedroom"
           value={formData.bedroom}
           onChange={handleChange}
+          min = "0"
           required
         />
         <input
-          type="text"
+          type="number"
           name="person"
           placeholder="no of person"
           value={formData.person}
           onChange={handleChange}
+          min = "0"
           required
         />
         <input
-          type="text"
+          type="number"
           name="bathroom"
           placeholder="no of bathroom"
           value={formData.bathroom}
           onChange={handleChange}
+          min = "0"
           required
         />
-        <input
-          type="text"
-          name="type"
-          placeholder="type"
-          value={formData.type}
-          onChange={handleChange}
-          required
-        />
+        <select name="type" value={formData.type} onChange={handleChange} required>
+          <option value="">Select Type</option> {/* Optional placeholder */}
+          <option value="house">House</option>
+          <option value="room">Room</option>
+        </select>
         <input
           type="text"
           name="proximity"
@@ -172,6 +173,7 @@ export const CreatePost = () => {
           type="file"
           name="imageurl1"
           placeholder="imageurl1"
+          accept="image/*"
           value={formData.imageurl1}
           onChange={handleChange}
           required
@@ -181,6 +183,7 @@ export const CreatePost = () => {
           type="file"
           name="imageurl2"
           placeholder="imageurl2"
+          accept="image/*"
           value={formData.imageurl2}
           onChange={handleChange}
           required
@@ -190,6 +193,7 @@ export const CreatePost = () => {
           type="file"
           name="imageurl3"
           placeholder="imageurl3"
+          accept="image/*"
           value={formData.imageurl3}
           onChange={handleChange}
           required
@@ -199,6 +203,7 @@ export const CreatePost = () => {
           type="file"
           name="imageurl4"
           placeholder="imageurl4"
+          accept="image/*"
           value={formData.imageurl4}
           onChange={handleChange}
           required
