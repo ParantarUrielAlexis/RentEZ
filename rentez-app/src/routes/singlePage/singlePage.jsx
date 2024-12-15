@@ -66,8 +66,11 @@ const SinglePage = () => {
                 <div className="price">${place.price}</div>
               </div>
               <div className="user">
-                <img src={place.ownerImage || "/default-user.png"} alt="" />
-                <span>{place.ownerName || "Unknown owner"}</span>
+                <img
+                  src={place.userID.username || "/default-user.png"}
+                  alt=""
+                />
+                <span>{place.userID || "Unknown owner"}</span>
               </div>
             </div>
             <div className="bottom">{place.description}</div>
