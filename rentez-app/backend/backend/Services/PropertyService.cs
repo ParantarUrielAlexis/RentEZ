@@ -14,6 +14,7 @@ namespace backend.Services {
             var properties = await _repository.GetAllAsync();
             return properties.Select(p => new PropertyDTO {
                 PropertyID = p.PropertyID,
+                UserID = p.UserID,
                 Name = p.Name,
                 Street = p.Street,
                 City = p.City,
@@ -27,6 +28,7 @@ namespace backend.Services {
             var property = await _repository.GetByIdAsync(id);
             return property == null ? null : new PropertyDTO {
                 PropertyID = property.PropertyID,
+                UserID = property.UserID,
                 Name = property.Name,
                 Street = property.Street,
                 City = property.City,

@@ -23,7 +23,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/feature" element={<SinglePage />} />
+            <Route path="/place/:id" element={<SinglePage />} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/create-post" element={<CreatePost />} />
             <Route path="/edit-contact-card" element={<EditContactCard />} />
