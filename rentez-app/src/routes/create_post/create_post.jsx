@@ -53,7 +53,7 @@ export const CreatePost = () => {
             street: "",
             province: "",
             description: "",
-            price: "0",
+            price: "",
             bedroom: "",
             person: "",
             bathroom: "",
