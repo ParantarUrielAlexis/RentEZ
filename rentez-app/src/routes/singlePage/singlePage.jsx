@@ -57,11 +57,11 @@ const SinglePage = () => {
                 </div>
                 <div className="address">
                   <img src="/bed.png" alt="" />
-                  <span>{place.bedrooms} bedrooms</span>
+                  <span>{place.bedroom} bedrooms</span>
                 </div>
                 <div className="address">
                   <img src="/bath.png" alt="" />
-                  <span>{place.bathrooms} bathrooms</span>
+                  <span>{place.bathroom} bathrooms</span>
                 </div>
                 <div className="price">${place.price}</div>
               </div>

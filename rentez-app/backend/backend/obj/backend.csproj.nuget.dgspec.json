@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School\\CSIT321\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj": {}
+    "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj": {}
   },
   "projects": {
-    "D:\\School\\CSIT321\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj": {
+    "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\CSIT321\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "D:\\School\\CSIT321\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj",
-        "packagesPath": "C:\\Users\\kentv\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\CSIT321\\RentEZ\\rentez-app\\backend\\backend\\obj\\",
+        "projectPath": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\Uriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Uriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
-        "originalTargetFrameworks": ["net8.0"],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
@@ -30,7 +32,9 @@
           }
         },
         "warningProperties": {
-          "warnAsError": ["NU1605"]
+          "warnAsError": [
+            "NU1605"
+          ]
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
