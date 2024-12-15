@@ -47,3 +47,90 @@
     margin-bottom: 10px;
   }
 }
+
+/* Global styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Create post container */
+.create-post-container {
+  width: 600px; /* Adjust width as needed */
+  margin: 50px auto; /* Center the container horizontally */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Spacing between form elements */
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+textarea {
+  height: 100px; /* Adjust height as needed */
+}
+
+select {
+  appearance: none; /* Remove default dropdown styling */
+  background-image: url("data:image/svg+xml;base64,phN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHZpZXdwb3J0PSIwIDA4IDggOCI+PHBhdGggZD0iTCAwIDljLjM0NSAwIC42NS4xNTUgLjgzMi40NjkgLjM3OC4zMTQgLjM3OC44MjEgMCAxLjE5OSAtLjM3OC4zNzktLjM3OC44MjEtLjgzMi40NjkgbDYtNiYjeGE5OThmMWM0LjkwNy00LjkwNyA0LjkwNy0xMS4yODUgMCAxNS4yODUtMi4zNTQgMi4zNTQtNS44MjEgMy41MzYtOS4zNzkgMy41MzYtMy41NTQgMCAtNi42MjEtMS4xODIgOS4zNzktMy41MzYgMy4zNTQtMi4zNTQgNS44MjEtMy41MzYgOS4zNzktMy41MzZ6IiBmaWxsPSIjYWFhYWFhIiBmaWxs-b2ZmcD0ib none") no-repeat right 10px center; /* Add an arrow icon for dropdown */
+  padding-right: 30px; /* Adjust padding to accommodate the arrow icon */
+}
+
+/* Error and success messages */
+.error-message,
+.success-message {
+  color: red; /* Error message color */
+  color: green; /* Success message color */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+/* Input file styling (Optional) */
+/* You can customize this further using libraries like Dropzone.js */
+input[type="file"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}

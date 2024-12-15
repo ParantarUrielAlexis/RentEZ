@@ -155,14 +155,11 @@ export const CreatePost = () => {
           min = "0"
           required
         />
-        <input
-          type="text"
-          name="type"
-          placeholder="type"
-          value={formData.type}
-          onChange={handleChange}
-          required
-        />
+        <select name="type" value={formData.type} onChange={handleChange} required>
+          <option value="">Select Type</option> {/* Optional placeholder */}
+          <option value="house">House</option>
+          <option value="room">Room</option>
+        </select>
         <input
           type="text"
           name="proximity"
