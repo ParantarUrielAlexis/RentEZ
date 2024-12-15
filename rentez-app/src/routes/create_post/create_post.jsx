@@ -1,138 +1,213 @@
-import React from "react";
-// import hugeiconsPlusSign from "./hugeicons-plus-sign.svg";
-// import image2 from "./image-2.png";
-// import image17 from "./image-17.png";
-// import image from "./image.png";
-import "./create_post.scss";
-// import tablerHomeFilled from "./tabler-home-filled.svg";
+import React, { useState } from "react";
+import "./create_post.scss"; // You'll need to create this CSS file
+import { Link, useNavigate } from "react-router-dom";
 
 export const CreatePost = () => {
+  const [formData, setFormData] = useState({
+    userID: "1",
+    propertyName: "",
+    city: "",
+    street: "",
+    province: "",
+    description: "",
+    price: "100",
+    bedroom: "",
+    person: "",
+    bathroom: "",
+    type: "",
+    proximity: "",
+    imageurl1: "",
+    imageurl2: "",
+    imageurl3: "",
+    imageurl4: "",
+  });
+  const [errorMessage, setErrorMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setErrorMessage("");
+    setSuccessMessage("");
+
+    try {
+      const response = await fetch("https://localhost:7183/api/Property", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData), // Use formData directly
+      });
+
+      if (response.ok) {
+        const result = await response.json();
+        setSuccessMessage(result.message || "Property created successfully!");
+        // Optionally reset the form after successful submission
+        setFormData({
+            userID: "1",
+            propertyName: "",
+            city: "",
+            street: "",
+            province: "",
+            description: "",
+            price: "100",
+            bedroom: "",
+            person: "",
+            bathroom: "",
+            type: "",
+            proximity: "",
+            imageurl1: "",
+            imageurl2: "",
+            imageurl3: "",
+            imageurl4: "",
+          });
+      } else {
+        const result = await response.json();
+        setErrorMessage(result.message || "Creation Failed");
+      }
+    } catch (error) {
+      console.error("Error during property creation:", error); // Log the error for debugging
+      setErrorMessage("An error occurred.");
+    }
+  };
+
   return (
-    <div className="crate-post">
-      <div className="div">
-        <div className="overlap">
-          <div className="rectangle" />
+    <div className="create-post-container"> {/* Add a container for styling */}
+      <h2>Create a Property Listing</h2>
+      {errorMessage && <div className="error-message">{errorMessage}</div>}
+      {successMessage && <div className="success-message">{successMessage}</div>}
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          name="propertyName"
+          placeholder="Property Name"
+          value={formData.propertyName}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="street"
+          placeholder="Street Address"
+          value={formData.street}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="city"
+          placeholder="City"
+          value={formData.city}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="province"
+          placeholder="Province"
+          value={formData.province}
+          onChange={handleChange}
+          required
+        />
+        <textarea
+          name="description"
+          placeholder="Description"
+          value={formData.description}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="number"
+          name="price"
+          placeholder="Price"
+          value={formData.price}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="bedroom"
+          placeholder="no of bedroom"
+          value={formData.bedroom}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="person"
+          placeholder="no of person"
+          value={formData.person}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="bathroom"
+          placeholder="no of bathroom"
+          value={formData.bathroom}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="type"
+          placeholder="type"
+          value={formData.type}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="text"
+          name="proximity"
+          placeholder="proximity"
+          value={formData.proximity}
+          onChange={handleChange}
+          required
+        />
 
-          <div className="text-wrapper">Add</div>
-        </div>
+        <input
+          type="file"
+          name="imageurl1"
+          placeholder="imageurl1"
+          value={formData.imageurl1}
+          onChange={handleChange}
+          required
+        />
 
-        <div className="group">
-          {/* <img
-            className="tabler-home-filled"
-            alt="Tabler home filled"
-            src={tablerHomeFilled}
-          /> */}
+        <input
+          type="file"
+          name="imageurl2"
+          placeholder="imageurl2"
+          value={formData.imageurl2}
+          onChange={handleChange}
+          required
+        />
 
-          {/* created navbar can delete */}
-          {/* <div className="text-wrapper-2">RentEz</div>
+        <input
+          type="file"
+          name="imageurl3"
+          placeholder="imageurl3"
+          value={formData.imageurl3}
+          onChange={handleChange}
+          required
+        />
+        
+        <input
+          type="file"
+          name="imageurl4"
+          placeholder="imageurl4"
+          value={formData.imageurl4}
+          onChange={handleChange}
+          required
+        />
 
-          <div className="text-wrapper-3">Home</div>
-
-          <div className="text-wrapper-4">Contact</div>
-
-          <div className="text-wrapper-5">About</div> */}
-        </div>
-
-        <div className="title">
-          <div className="rectangle-2" />
-
-          <div className="text-wrapper-6">Name of the property</div>
-        </div>
-
-        <div className="title-2">
-          <div className="rectangle-3" />
-
-          <div className="text-wrapper-7">City</div>
-        </div>
-
-        <div className="title-3">
-          <div className="rectangle-4" />
-
-          <div className="text-wrapper-8">Proximity</div>
-        </div>
-
-        <div className="title-4">
-          <div className="rectangle-5" />
-
-          <div className="text-wrapper-9">General policy</div>
-        </div>
-
-        <div className="title-5">
-          <div className="rectangle-5" />
-
-          <div className="text-wrapper-9">Type</div>
-        </div>
-
-        <div className="title-6">
-          <div className="rectangle-6" />
-
-          <div className="text-wrapper-10">No. of Bedroom</div>
-        </div>
-
-        <div className="title-7">
-          <div className="rectangle-3" />
-
-          <div className="text-wrapper-10">No. of Bathroom</div>
-        </div>
-
-        <div className="title-8">
-          <div className="rectangle-6" />
-
-          <div className="text-wrapper-10">Person/room</div>
-        </div>
-
-        <div className="place">
-          <div className="rectangle-3" />
-
-          <div className="text-wrapper-11">Street</div>
-        </div>
-
-        <div className="address">
-          <div className="rectangle-3" />
-
-          <div className="text-wrapper-11">Province</div>
-        </div>
-
-        <div className="description-form">
-          <div className="rectangle-7" />
-
-          <div className="description-other">
-            Description &amp; other information
-          </div>
-        </div>
-
-        <div className="overlap-group">
-          <div className="text-wrapper-12">Add Images</div>
-        </div>
-
-        <div className="overlap-2">
-          <div className="rectangle-8" />
-
-          <div className="text-wrapper-13">Profile</div>
-        </div>
-
-        <div className="text-wrapper-14">Roberto</div>
-
-        <div className="text-wrapper-15">Address</div>
-
-        <div className="text-wrapper-16">Property information</div>
-
-        <div className="text-wrapper-17">Features</div>
-
-        {/* <img className="image" alt="Image" src={image17} />
-
-        <img className="img" alt="Image" src={image} /> */}
-
-        {/* <div className="overlap-3">
-          <img
-            className="hugeicons-plus-sign"
-            alt="Hugeicons plus sign"
-            src={hugeiconsPlusSign}
-          />
-
-          <img className="image-2" alt="Image" src={image2} />
-        </div> */}
-      </div>
+        <button type="submit">Create Post</button>
+      </form>
     </div>
   );
 };
+
+export default CreatePost;

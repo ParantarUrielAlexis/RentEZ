@@ -288,6 +288,42 @@
           "price": {
             "type": "number",
             "format": "double"
+          },
+          "bedroom": {
+            "type": "number",
+            "format": "double"
+          },
+          "person": {
+            "type": "number",
+            "format": "double"
+          },
+          "bathroom": {
+            "type": "number",
+            "format": "double"
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "proximity": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl1": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl2": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl3": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl4": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -384,6 +420,42 @@
           "price": {
             "type": "number",
             "format": "double"
+          },
+          "bedroom": {
+            "type": "number",
+            "format": "double"
+          },
+          "person": {
+            "type": "number",
+            "format": "double"
+          },
+          "bathroom": {
+            "type": "number",
+            "format": "double"
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "proximity": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl1": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl2": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl3": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl4": {
+            "type": "string",
+            "nullable": true
           },
           "user": {
             "$ref": "#/components/schemas/User"

@@ -30,9 +30,7 @@
             "related": ".xml"
           }
         },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        "frameworkReferences": ["Microsoft.AspNetCore.App"]
       },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
@@ -1022,9 +1020,7 @@
             "related": ".pdb;.xml"
           }
         },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        "frameworkReferences": ["Microsoft.AspNetCore.App"]
       },
       "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
         "type": "package",
@@ -1054,9 +1050,7 @@
             "related": ".pdb;.xml"
           }
         },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        "frameworkReferences": ["Microsoft.AspNetCore.App"]
       },
       "System.CodeDom/6.0.0": {
         "type": "package",
@@ -3958,19 +3952,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj",
+      "projectUniqueName": "D:\\School\\CSIT321\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj",
-      "packagesPath": "C:\\Users\\Uriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Uriel\\Documents\\RentEZ\\rentez-app\\backend\\backend\\obj\\",
+      "projectPath": "D:\\School\\CSIT321\\RentEZ\\rentez-app\\backend\\backend\\backend.csproj",
+      "packagesPath": "C:\\Users\\kentv\\.nuget\\packages\\",
+      "outputPath": "D:\\School\\CSIT321\\RentEZ\\rentez-app\\backend\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Uriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
-      "originalTargetFrameworks": [
-        "net8.0"
-      ],
+      "originalTargetFrameworks": ["net8.0"],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
@@ -3983,9 +3975,7 @@
         }
       },
       "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
+        "warnAsError": ["NU1605"]
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
